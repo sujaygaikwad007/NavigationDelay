@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  NavigationDelay
-//
-//  Created by Aniket Patil on 15/12/23.
-//
+
 
 import UIKit
 

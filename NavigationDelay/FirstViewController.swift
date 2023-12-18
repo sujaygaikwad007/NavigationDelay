@@ -8,6 +8,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         
+        
     }
 
 
@@ -21,8 +22,6 @@ class FirstViewController: UIViewController {
                     navigateToThirdPage()
         }
         
-        
-        
     }
 
     func showSecondPage() -> Bool {
@@ -32,7 +31,7 @@ class FirstViewController: UIViewController {
             print("Last Visit Timestamp: \(lastVisitTimestamp)")
             print("Current Time: \(currentTime)")
             print("Time Difference: \(timeDifference)")
-            return timeDifference >= 60 //for a minute
+            return timeDifference >= 60 //for a seconds
         }
         return true
     }
@@ -54,5 +53,9 @@ class FirstViewController: UIViewController {
             navigationController?.pushViewController(thirdVC, animated: true)
         }
     
+    
+    
+    
 }
+
 
